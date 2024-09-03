@@ -35,9 +35,9 @@ function Subscribers() {
     { id: 15, mobile: '+880151234' + Math.floor(Math.random() * 1000).toString().padStart(3, '0'), activeDate: '2024-04-24', nextRenewDate: '2024-06-' + String(Math.floor(Math.random() * 28) + 1).padStart(2, '0'), status: 'Active', partner: 'Nagad', appType: 'Web' },
   ];
 
-  const [currentPage, setCurrentPage] = useState(1);
+  const [currentPage] = useState(1);
   const itemsPerPage = 10;
-  const totalPages = Math.ceil(subscribers.length / itemsPerPage);
+  //const totalPages = Math.ceil(subscribers.length / itemsPerPage);
 
   const getAppTypeIcon = (appType) => {
     switch (appType) {

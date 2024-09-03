@@ -1,5 +1,4 @@
 import { Edit, Trash2, Plus } from 'lucide-react';
-import { Link } from 'react-router-dom';
 
 function Partners() {
   const partners = [

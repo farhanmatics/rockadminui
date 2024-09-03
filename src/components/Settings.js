@@ -39,7 +39,7 @@ function PartnerSettingsCard({ partner }) {
 }
 
 function Settings() {
-  const [partners, setPartners] = useState(initialPartners);
+  const [partners] = useState(initialPartners);
 
   const handleAddNew = () => {
     console.log("Add new partner clicked");
