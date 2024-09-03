@@ -36,14 +36,14 @@ function Header({ onMenuToggle }) {
         {isMenuOpen && (
           <div className="absolute right-0 mt-2 w-48 bg-[#1c1c1e] rounded-md shadow-lg py-1">
             <a
-              href="#"
+              href="/"
               className="block px-4 py-2 text-sm hover:bg-[#2c2c2e] flex items-center"
             >
               <Settings className="h-4 w-4 mr-2" />
               Manage Account
             </a>
             <a
-              href="#"
+              href="/"
               className="block px-4 py-2 text-sm hover:bg-[#2c2c2e] flex items-center"
             >
               <LogOut className="h-4 w-4 mr-2" />
